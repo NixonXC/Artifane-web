@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+    background-image: url(assets/background4.svg);
+}
+.main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 77px;
+}
+.main p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar li {
+    float: right;
+    margin-left: 10px;
+}
+.navbar li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.navbar img {
+    float: left;
+}
+.navbar li a:hover{
+    color: #5865f2;
+    transition: 0.80s;
+}
+#btn {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+    background-color: #5865f2;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover {
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: #3541c5;
+}
